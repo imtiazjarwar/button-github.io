@@ -1,0 +1,52 @@
+html{
+    background: rgb(216,241,247);
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+button.Signup{
+background: rgb(255, 0, 119);
+border: 1px solid rgb(255,0, 168);
+}
+button.Signin{
+    background: rgb(21,255,0);
+    border: 1px solid rgb(29,216,12);
+}
+button.Click{
+    background: rgb(255,219,6);
+
+}
+button{
+    margin: 0 15px;
+    width: 140px;
+    height: 50px;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    color:#fff;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    background-image: linear-gradient(top,#ffffff33 1px, #ffffff00 1px, #000001 100%);
+    box-shadow: 0 60px 12px -18px rgba(0,0,0,0.1),0 60px 20px -12px rgba(0, 0, 0, 0.1);
+    animation: imtiaz 1s infinite ease-in-out alternate;
+    -webkit-animation: imtiaz 1s infinite ease-in-out alternate;
+}
+button.Signin{
+    animation-duration: .3s;
+}
+@keyframes imtiaz{
+    100%{
+        transform:translateY(20px) ;
+        -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+    box-shadow: 0 40px 10x -8px rgba(0,0,0,0.2), 0 40px 16px -12px rgba(0,0,0,0.2);
+    }
+}
